@@ -9,7 +9,7 @@ namespace Uchart
     class SendInfo
     {
         private static String Url = "http://localhost:4500/addInfo";
-        private static String ProgramName = "asdf@gmail.com/테스트론";
+        private static String ProgramName = "이메일/등록된 프로그램 이름";
 
         public static void Send(List<KeyValuePair<string,string>> keyValues)
         {
