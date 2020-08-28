@@ -21,6 +21,7 @@ public class SendInfo {
     private HashMap<String,String> keys;
     public SendInfo(String programName){
         this.programName = programName;
+        this.keys = new HashMap<>();
     }
     public SendInfo(String programName,HashMap<String,String> keys){
         this.programName = programName;
